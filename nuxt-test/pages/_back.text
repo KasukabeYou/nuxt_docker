@@ -1,0 +1,43 @@
+<!-- <script>
+import Login from '~/components/login/Login.vue'
+
+export default {
+  components: {
+    Login
+  }
+}
+</script> -->
+
+<!-- <template>
+  <div>
+    <h1>Welcome to My Nuxt.js App</h1>
+    <p>This is the homepage.</p>
+    <button @click="onNext">Go to First Page</button>
+  </div>
+</template>
+
+<script>
+import { useRuntimeConfig } from '#imports'
+
+export default {
+  setup() {
+    const runtimeConfig = useRuntimeConfig()
+    console.log(runtimeConfig.apiSecret)
+    console.log(runtimeConfig.public.apiBase)
+
+    // setup() 関数から何かデータを返す場合はここで行います。
+    return {
+      // 返すデータ
+    }
+  },
+  methods: {
+    onNext() {
+      this.$router.push('/first');
+    }
+  }
+}
+</script>
+
+<style>
+/* スタイルを記述 */
+</style> -->
